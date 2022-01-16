@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    margin-bottom:50px;
+}
+.first-section{
+    display: flex;
+    text-decoration: none;
+}
+.preebook-button a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: hotpink;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+.preebook-button a i{
+    padding-left: 8px;
+}
+.blog{
+    text-align: center;
+}
+.fa-star.filled{
+    color: goldenrod;
+}
+
+.popular-title{
+    text-align: center
+
+}
+.arrow-button{
+    text-align: right;
+    margin-right: 15px;
+}
+.arrow-button a{
+    text-decoration: none;
+    color: hotpink;
+    font-weight: 600;
+    
+}
+.flex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+@media only screen and (max-width: 600px) {
+    
+    .flex{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .first-section{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width: 601px)and (max-width: 980px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+    .first-section{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+}
+.footer-info{
+    text-align: center;
+    background-color: #2F4F4F;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 0;
+}
